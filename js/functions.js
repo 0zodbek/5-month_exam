@@ -11,8 +11,8 @@ async function getData(url){
 function detailsCard(el){
 return`
 <div class="details_wrapper container" id="deailswrapper" >
-         <div class="${el.image}">
-            
+         <div class="details_img">
+         <img src="${el.image}" alt="">
          </div>
         <div class="details__info__wrapper">
           <h1>${el.name}</h1>
@@ -26,7 +26,7 @@ return`
             <div class="newprice"><p>${el.newPrice}</p></div>
             <div class="oldprice"><p>${el.oldPrice}</p></div>
           </div>
-          <button>КОРЗИНКА</button>
+          <button class="button">КОРЗИНКА</button>
         </div>
       </div>
 `
@@ -74,4 +74,6 @@ return `
 `
 }
 
+
 export{getData,createCard,detailsCard,saveLC}
+

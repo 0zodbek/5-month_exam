@@ -23,8 +23,20 @@ document.addEventListener("DOMContentLoaded", async function () {
           cardwrapper.innerHTML += card;
           
         }
+        const cards = document.querySelectorAll('.card');
+    cards.length > 0 && cards.forEach(el => {
+        el.addEventListener('click',function(event){
+          const cardId = this.getAttribute("data-id");
+  if (cardId) {
+    window.location.href(`http://127.0.0.1:5500/pages/details.html?id=${cardId}`);
+  }
+          // saveLC(this)
+        // window.location.assign("http://127.0.0.1:5500/pages/details.html")
+        })
+    });
       });
     
+      
 
       
     });
@@ -33,7 +45,7 @@ document.addEventListener("DOMContentLoaded", async function () {
         el.addEventListener('click',function(event){
           const cardId = this.getAttribute("data-id");
   if (cardId) {
-    window.location.assign(`http://127.0.0.1:5500/pages/details.html?id=${cardId}`);
+    window.location.href(`http://127.0.0.1:5500/pages/details.html?id=${cardId}`);
   }
           // saveLC(this)
         // window.location.assign("http://127.0.0.1:5500/pages/details.html")
@@ -43,4 +55,5 @@ document.addEventListener("DOMContentLoaded", async function () {
   } catch (err) {
     console.error(err);
   }
+  
 });

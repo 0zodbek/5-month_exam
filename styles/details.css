@@ -57,7 +57,7 @@
   .details_wrapper{
 width: 1440px;
 height: 774px;
-border:1px double #233223;
+/* border:1px double #233223; */
 position: relative;
 }
 .details__info__wrapper{
@@ -66,7 +66,7 @@ height: 433px;
 position: absolute;
 top: 171px;
 right: 100px;
-border:1px solid #232323;
+/* border:1px solid #232323; */
 display: flex;
 flex-direction: column;
 }
@@ -126,11 +126,11 @@ background-color: #4295E4;
 color:#fff;
 margin-top: 16px;
 }
-.part_details_img{
+.details_img img{
   position: absolute;
 width: 500px;
 height: 550px;
-border:1px solid #232323;
+/* border:1px solid #232323; */
 top: 100px;
 left: 150px;
 }
