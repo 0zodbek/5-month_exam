@@ -8,12 +8,36 @@ async function getData(url){
     }
     }
 
-function detailsCard(){
-return
+function detailsCard(el){
+return`
+<div class="details_wrapper container" id="deailswrapper" >
+         <div class="${el.image}">
+            
+         </div>
+        <div class="details__info__wrapper">
+          <h1>${el.name}</h1>
+          <h2>
+            Замок дверной электронный Golden Soft GS-200Z-5 имеет роскошный
+            глянцевый блеск, четкие линии, красивые формы.
+          </h2>
+          <h2>Подходит для установки на деревянную/межкомнатную дверь.</h2>
+          <h3>Цена</h3>
+          <div class="price">
+            <div class="newprice"><p>${el.newPrice}</p></div>
+            <div class="oldprice"><p>${el.oldPrice}</p></div>
+          </div>
+          <button>КОРЗИНКА</button>
+        </div>
+      </div>
+`
+}
+function saveLC(event) {
+  const cardId = event;
+  localStorage.setItem('cardId', cardId); 
 }
 function createCard(el){
 return `
-<div class="card">
+<div class="card" data-id="${el.id}">
               <div class="card__head">
                 <div class="isExist">
                   <h3>${el.isExist}</h3>
@@ -50,4 +74,4 @@ return `
 `
 }
 
-export{getData,createCard}
+export{getData,createCard,detailsCard,saveLC}
