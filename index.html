@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- general style -->
+    <link rel="stylesheet" href="./styles/style.css" />
+    <!-- normalize style -->
+    <link rel="stylesheet" href="./styles/normalize.css" />
+    <!-- fonts style -->
+    <link rel="stylesheet" href="./styles/fonts.css" />
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Golden Soft</title>
+  </head>
+  <body>
+    <header>
+      <div class="container header_container">
+        <div class="left_part">
+          <a href="#"
+            ><img src="./images/logo1.svg" alt="bu yerda logo rasmi bor"
+          /></a>
+          <ul>
+            <li><a href="">Главная</a></li>
+            <li>
+              <a href="http://127.0.0.1:5500/pages/details.html"
+                >Каталог <i class="fa-solid fa-angle-down"></i
+              ></a>
+            </li>
+            <li><a href="">Оптовая продажа</a></li>
+            <li><a href="">О нас</a></li>
+          </ul>
+        </div>
+        <div class="right_part">
+          <a href="+998976632829"
+            ><i class="fa-solid fa-phone" style="color: #4295e4"></i>+7 (966) 55
+            88 499</a
+          >
+          <div class="icons">
+            <i class="fa-regular fa-heart"></i
+            ><i class="fa-solid fa-cart-shopping"></i>
+          </div>
+        </div>
+      </div>
+    </header>
+    <nav class="container">
+      <a href="/index.html">Главная </a><a href="">/ Каталог</a>
+    </nav>
+    <div class="title container">
+      <h1>Накладные электронные замки<span>(854)</span></h1>
+    </div>
+    <main>
+      <div class="container">
+        <div class="head_part">
+          <div class="main__head__left-part">
+            <button>Сбросить фильтры</button
+            ><span
+              >Электронные кодовые замки
+              <i class="fa-solid fa-xmark" style="color: #f85959"></i
+            ></span>
+          </div>
+          <div class="main__head__right-part">
+            <select id="Popularity">
+              <option value="">Популярности</option>
+              <option value="не популярен">не популярен</option>
+              <option value="средний">средний</option>
+              <option value="известный">известный</option>
+            </select>
+          </div>
+        </div>
+        <div class="hero__section">
+          <div class="filter">
+            <div class="d">
+              <h3>Фильтр</h3>
+              <div>
+                <h4>
+                  Цена
+                  <i class="fa-solid fa-chevron-up" style="color: #74c0fc"></i>
+                </h4>
+                <span>
+                  <h5>79000₽</h5>
+                  <h5>4000₽</h5>
+                </span>
+                <button>От 4000₽ до 15000₽</button>
+                <button>От 15000₽ до 30000₽</button>
+                <button>От 30000₽ до 45000₽</button>
+                <button>От 45000₽ до 60000₽</button>
+                <button>От 60000₽ до 79000₽</button>
+              </div>
+            </div>
+          </div>
+          <div class="hero__part" id="wrapper">
+            <!-- <div class="card">
+              <div class="card__head">
+                <div class="isExist">
+                  <h3>В наличии</h3>
+                </div>
+                <div class="sale">
+                  <span>SALE</span>
+                </div>
+              </div>
+              <div class="part__img">
+                <img src="./images/card_img-2.png" alt="" />
+              </div>
+              <div class="part__info-card">
+                <div class="card__info__head">
+                  <div class="stars">
+                    <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                    <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                    <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                    <i class="fa-regular fa-star" style="color: #8c8b87"></i>
+                    <i class="fa-regular fa-star" style="color: #8c8b87"></i>
+                    <div class="coments"><span>(12) отзывов</span></div>
+                  </div>
+                  <p>Вариативный замок Golden Soft для отеля</p>
+                  <br />
+                  <div class="price">
+                    <h3 class="new_price">7 000₽</h3>
+                    <h3 class="old_price">8 000₽</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="box">
+                <i class="fa-solid fa-gift" style="color: #4295e4"></i>Подарок
+              </div>
+            </div>
+            <div class="card">
+              <div class="card__head">
+                <div class="isExist">
+                  <h3>В наличии</h3>
+                </div>
+                <div class="sale">
+                  <span>SALE</span>
+                </div>
+              </div>
+              <div class="part__img">
+                <img src="./images/card_img-2.png" alt="" />
+              </div>
+              <div class="part__info-card">
+                <div class="card__info__head">
+                  <div class="stars">
+                    <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                    <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                    <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                    <i class="fa-regular fa-star" style="color: #8c8b87"></i>
+                    <i class="fa-regular fa-star" style="color: #8c8b87"></i>
+                    <div class="coments"><span>(12) отзывов</span></div>
+                  </div>
+                  <p>Вариативный замок Golden Soft для отеля</p>
+                  <br />
+                  <div class="price">
+                    <h3 class="new_price">7 000₽</h3>
+                    <h3 class="old_price">8 000₽</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="box">
+                <i class="fa-solid fa-gift" style="color: #4295e4"></i>Подарок
+              </div>
+            </div>
+            <div class="card">
+              <div class="card__head">
+                <div class="isExist">
+                  <h3>В наличии</h3>
+                </div>
+                <div class="sale">
+                  <span>SALE</span>
+                </div>
+              </div>
+              <div class="part__img">
+                <img src="./images/card_img-2.png" alt="" />
+              </div>
+              <div class="part__info-card">
+                <div class="card__info__head">
+                  <div class="stars">
+                    <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                    <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                    <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                    <i class="fa-regular fa-star" style="color: #8c8b87"></i>
+                    <i class="fa-regular fa-star" style="color: #8c8b87"></i>
+                    <div class="coments"><span>(12) отзывов</span></div>
+                  </div>
+                  <p>Вариативный замок Golden Soft для отеля</p>
+                  <br />
+                  <div class="price">
+                    <h3 class="new_price">7 000₽</h3>
+                    <h3 class="old_price">8 000₽</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="box">
+                <i class="fa-solid fa-gift" style="color: #4295e4"></i>Подарок
+              </div>
+            </div>
+            <div class="card">
+              <div class="card__head">
+                <div class="isExist">
+                  <h3>В наличии</h3>
+                </div>
+                <div class="sale">
+                  <span>SALE</span>
+                </div>
+              </div>
+              <div class="part__img">
+                <img src="./images/card_img-2.png" alt="" />
+              </div>
+              <div class="part__info-card">
+                <div class="card__info__head">
+                  <div class="stars">
+                    <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                    <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                    <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                    <i class="fa-regular fa-star" style="color: #8c8b87"></i>
+                    <i class="fa-regular fa-star" style="color: #8c8b87"></i>
+                    <div class="coments"><span>(12) отзывов</span></div>
+                  </div>
+                  <p>Вариативный замок Golden Soft для отеля</p>
+                  <br />
+                  <div class="price">
+                    <h3 class="new_price">7 000₽</h3>
+                    <h3 class="old_price">8 000₽</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="box">
+                <i class="fa-solid fa-gift" style="color: #4295e4"></i>Подарок
+              </div>
+            </div>
+            <div class="card">
+              <div class="card__head">
+                <div class="isExist">
+                  <h3>В наличии</h3>
+                </div>
+                <div class="sale">
+                  <span>SALE</span>
+                </div>
+              </div>
+              <div class="part__img">
+                <img src="./images/card_img-2.png" alt="" />
+              </div>
+              <div class="part__info-card">
+                <div class="card__info__head">
+                  <div class="stars">
+                    <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                    <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                    <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                    <i class="fa-regular fa-star" style="color: #8c8b87"></i>
+                    <i class="fa-regular fa-star" style="color: #8c8b87"></i>
+                    <div class="coments"><span>(12) отзывов</span></div>
+                  </div>
+                  <p>Вариативный замок Golden Soft для отеля</p>
+                  <br />
+                  <div class="price">
+                    <h3 class="new_price">7 000₽</h3>
+                    <h3 class="old_price">8 000₽</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="box">
+                <i class="fa-solid fa-gift" style="color: #4295e4"></i>Подарок
+              </div>
+            </div>
+            <div class="card">
+              <div class="card__head">
+                <div class="isExist">
+                  <h3>В наличии</h3>
+                </div>
+                <div class="sale">
+                  <span>SALE</span>
+                </div>
+              </div>
+              <div class="part__img">
+                <img src="./images/card_img-2.png" alt="" />
+              </div>
+              <div class="part__info-card">
+                <div class="card__info__head">
+                  <div class="stars">
+                    <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                    <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                    <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                    <i class="fa-regular fa-star" style="color: #8c8b87"></i>
+                    <i class="fa-regular fa-star" style="color: #8c8b87"></i>
+                    <div class="coments"><span>(12) отзывов</span></div>
+                  </div>
+                  <p>Вариативный замок Golden Soft для отеля</p>
+                  <br />
+                  <div class="price">
+                    <h3 class="new_price">7 000₽</h3>
+                    <h3 class="old_price">8 000₽</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="box">
+                <i class="fa-solid fa-gift" style="color: #4295e4"></i>Подарок
+              </div>
+            </div>
+            <div class="card">
+              <div class="card__head">
+                <div class="isExist">
+                  <h3>В наличии</h3>
+                </div>
+                <div class="sale">
+                  <span>SALE</span>
+                </div>
+              </div>
+              <div class="part__img">
+                <img src="./images/card_img-2.png" alt="" />
+              </div>
+              <div class="part__info-card">
+                <div class="card__info__head">
+                  <div class="stars">
+                    <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                    <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                    <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                    <i class="fa-regular fa-star" style="color: #8c8b87"></i>
+                    <i class="fa-regular fa-star" style="color: #8c8b87"></i>
+                    <div class="coments"><span>(12) отзывов</span></div>
+                  </div>
+                  <p>Вариативный замок Golden Soft для отеля</p>
+                  <br />
+                  <div class="price">
+                    <h3 class="new_price">7 000₽</h3>
+                    <h3 class="old_price">8 000₽</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="box">
+                <i class="fa-solid fa-gift" style="color: #4295e4"></i>Подарок
+              </div>
+            </div>
+            <div class="card">
+              <div class="card__head">
+                <div class="isExist">
+                  <h3>В наличии</h3>
+                </div>
+                <div class="sale">
+                  <span>SALE</span>
+                </div>
+              </div>
+              <div class="part__img">
+                <img src="./images/card_img-2.png" alt="" />
+              </div>
+              <div class="part__info-card">
+                <div class="card__info__head">
+                  <div class="stars">
+                    <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                    <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                    <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                    <i class="fa-regular fa-star" style="color: #8c8b87"></i>
+                    <i class="fa-regular fa-star" style="color: #8c8b87"></i>
+                    <div class="coments"><span>(12) отзывов</span></div>
+                  </div>
+                  <p>Вариативный замок Golden Soft для отеля</p>
+                  <br />
+                  <div class="price">
+                    <h3 class="new_price">7 000₽</h3>
+                    <h3 class="old_price">8 000₽</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="box">
+                <i class="fa-solid fa-gift" style="color: #4295e4"></i>Подарок
+              </div>
+            </div>
+            <div class="card">
+              <div class="card__head">
+                <div class="isExist">
+                  <h3>В наличии</h3>
+                </div>
+                <div class="sale">
+                  <span>SALE</span>
+                </div>
+              </div>
+              <div class="part__img">
+                <img src="./images/card_img-2.png" alt="" />
+              </div>
+              <div class="part__info-card">
+                <div class="card__info__head">
+                  <div class="stars">
+                    <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                    <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                    <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                    <i class="fa-regular fa-star" style="color: #8c8b87"></i>
+                    <i class="fa-regular fa-star" style="color: #8c8b87"></i>
+                    <div class="coments"><span>(12) отзывов</span></div>
+                  </div>
+                  <p>Вариативный замок Golden Soft для отеля</p>
+                  <br />
+                  <div class="price">
+                    <h3 class="new_price">7 000₽</h3>
+                    <h3 class="old_price">8 000₽</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="box">
+                <i class="fa-solid fa-gift" style="color: #4295e4"></i>Подарок
+              </div>
+            </div>
+            <div class="card">
+              <div class="card__head">
+                <div class="isExist">
+                  <h3>В наличии</h3>
+                </div>
+                <div class="sale">
+                  <span>SALE</span>
+                </div>
+              </div>
+              <div class="part__img">
+                <img src="./images/card_img-2.png" alt="" />
+              </div>
+              <div class="part__info-card">
+                <div class="card__info__head">
+                  <div class="stars">
+                    <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                    <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                    <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                    <i class="fa-regular fa-star" style="color: #8c8b87"></i>
+                    <i class="fa-regular fa-star" style="color: #8c8b87"></i>
+                    <div class="coments"><span>(12) отзывов</span></div>
+                  </div>
+                  <p>Вариативный замок Golden Soft для отеля</p>
+                  <br />
+                  <div class="price">
+                    <h3 class="new_price">7 000₽</h3>
+                    <h3 class="old_price">8 000₽</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="box">
+                <i class="fa-solid fa-gift" style="color: #4295e4"></i>Подарок
+              </div>
+            </div>
+            <div class="card">
+              <div class="card__head">
+                <div class="isExist">
+                  <h3>В наличии</h3>
+                </div>
+                <div class="sale">
+                  <span>SALE</span>
+                </div>
+              </div>
+              <div class="part__img">
+                <img src="./images/card_img-2.png" alt="" />
+              </div>
+              <div class="part__info-card">
+                <div class="card__info__head">
+                  <div class="stars">
+                    <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                    <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                    <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                    <i class="fa-regular fa-star" style="color: #8c8b87"></i>
+                    <i class="fa-regular fa-star" style="color: #8c8b87"></i>
+                    <div class="coments"><span>(12) отзывов</span></div>
+                  </div>
+                  <p>Вариативный замок Golden Soft для отеля</p>
+                  <br />
+                  <div class="price">
+                    <h3 class="new_price">7 000₽</h3>
+                    <h3 class="old_price">8 000₽</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="box">
+                <i class="fa-solid fa-gift" style="color: #4295e4"></i>Подарок
+              </div>
+            </div>
+            <div class="card">
+              <div class="card__head">
+                <div class="isExist">
+                  <h3>В наличии</h3>
+                </div>
+                <div class="sale">
+                  <span>SALE</span>
+                </div>
+              </div>
+              <div class="part__img">
+                <img src="./images/card_img-2.png" alt="" />
+              </div>
+              <div class="part__info-card">
+                <div class="card__info__head">
+                  <div class="stars">
+                    <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                    <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                    <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                    <i class="fa-regular fa-star" style="color: #8c8b87"></i>
+                    <i class="fa-regular fa-star" style="color: #8c8b87"></i>
+                    <div class="coments"><span>(12) отзывов</span></div>
+                  </div>
+                  <p>Вариативный замок Golden Soft для отеля</p>
+                  <br />
+                  <div class="price">
+                    <h3 class="new_price">7 000₽</h3>
+                    <h3 class="old_price">8 000₽</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="box">
+                <i class="fa-solid fa-gift" style="color: #4295e4"></i>Подарок
+              </div>
+            </div> -->
+            <div class="pages">
+              <button><i class="fa-solid fa-chevron-left"></i></button>
+              <button>1</button>
+              <button>2</button>
+              <button>3</button>
+              <button>4</button>
+              <button>5</button>
+              <button>6</button>
+              <button>7</button>
+              <button>...</button>
+              <button>15</button>
+              <button><i class="fa-solid fa-chevron-right"></i></button>
+            </div>
+          </div>
+        </div>
+        <div class="recently_viewed">
+          <div class="title_viewed">
+            <h2>Вы недавно просмотрели</h2>
+            <div class="angles">
+              <i
+                class="fa-solid fa-chevron-left"
+                class="fa-solid fa-chevron-right fa-2xs"
+                style="color: rgb(106, 113, 124)"
+              ></i
+              ><i class="fa-solid fa-angle-right"></i>
+            </div>
+          </div>
+          <div class="viewed_cards">
+            <div class="card">
+              <div class="card__head">
+                <div class="isExist">
+                  <h3>В наличии</h3>
+                </div>
+                <div class="sale">
+                  <span>SALE</span>
+                </div>
+              </div>
+              <div class="part__img">
+                <img src="./images/card_img-2.png" alt="" />
+              </div>
+              <div class="part__info-card">
+                <div class="card__info__head">
+                  <div class="stars">
+                    <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                    <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                    <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                    <i class="fa-regular fa-star" style="color: #8c8b87"></i>
+                    <i class="fa-regular fa-star" style="color: #8c8b87"></i>
+                    <div class="coments"><span>(12) отзывов</span></div>
+                  </div>
+                  <p>Вариативный замок Golden Soft для отеля</p>
+                  <br />
+                  <div class="price">
+                    <h3 class="new_price">7 000₽</h3>
+                    <h3 class="old_price">8 000₽</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="box">
+                <i class="fa-solid fa-gift" style="color: #4295e4"></i>Подарок
+              </div>
+            </div>
+            <div class="card">
+              <div class="card__head">
+                <div class="isExist">
+                  <h3>В наличии</h3>
+                </div>
+                <div class="sale">
+                  <span>SALE</span>
+                </div>
+              </div>
+              <div class="part__img">
+                <img src="./images/card_img-2.png" alt="" />
+              </div>
+              <div class="part__info-card">
+                <div class="card__info__head">
+                  <div class="stars">
+                    <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                    <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                    <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                    <i class="fa-regular fa-star" style="color: #8c8b87"></i>
+                    <i class="fa-regular fa-star" style="color: #8c8b87"></i>
+                    <div class="coments"><span>(12) отзывов</span></div>
+                  </div>
+                  <p>Вариативный замок Golden Soft для отеля</p>
+                  <br />
+                  <div class="price">
+                    <h3 class="new_price">7 000₽</h3>
+                    <h3 class="old_price">8 000₽</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="box">
+                <i class="fa-solid fa-gift" style="color: #4295e4"></i>Подарок
+              </div>
+            </div>
+            <div class="card">
+              <div class="card__head">
+                <div class="isExist">
+                  <h3>В наличии</h3>
+                </div>
+                <div class="sale">
+                  <span>SALE</span>
+                </div>
+              </div>
+              <div class="part__img">
+                <img src="./images/card_img-2.png" alt="" />
+              </div>
+              <div class="part__info-card">
+                <div class="card__info__head">
+                  <div class="stars">
+                    <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                    <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                    <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                    <i class="fa-regular fa-star" style="color: #8c8b87"></i>
+                    <i class="fa-regular fa-star" style="color: #8c8b87"></i>
+                    <div class="coments"><span>(12) отзывов</span></div>
+                  </div>
+                  <p>Вариативный замок Golden Soft для отеля</p>
+                  <br />
+                  <div class="price">
+                    <h3 class="new_price">7 000₽</h3>
+                    <h3 class="old_price">8 000₽</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="box">
+                <i class="fa-solid fa-gift" style="color: #4295e4"></i>Подарок
+              </div>
+            </div>
+            <div class="card">
+              <div class="card__head">
+                <div class="isExist">
+                  <h3>В наличии</h3>
+                </div>
+                <div class="sale">
+                  <span>SALE</span>
+                </div>
+              </div>
+              <div class="part__img">
+                <img src="./images/card_img-2.png" alt="" />
+              </div>
+              <div class="part__info-card">
+                <div class="card__info__head">
+                  <div class="stars">
+                    <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                    <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                    <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                    <i class="fa-regular fa-star" style="color: #8c8b87"></i>
+                    <i class="fa-regular fa-star" style="color: #8c8b87"></i>
+                    <div class="coments"><span>(12) отзывов</span></div>
+                  </div>
+                  <p>Вариативный замок Golden Soft для отеля</p>
+                  <br />
+                  <div class="price">
+                    <h3 class="new_price">7 000₽</h3>
+                    <h3 class="old_price">8 000₽</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="box">
+                <i class="fa-solid fa-gift" style="color: #4295e4"></i>Подарок
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+     
+  </footer>
+    <script src="./js/main.js" type="module"></script>
+  </body>
+</html>

@@ -1,0 +1,418 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter';
+}
+body{  
+    font-family: 'Inter';
+    /* overflow: hidden; */
+}
+header {
+  background-color: #232323;
+}
+.container{
+padding-left:100px;
+padding-right: 100px;
+width: 1440px;
+margin: auto;
+/* border:1px solid #232323; */
+}
+.header_container {
+  padding: 10px;
+  max-width: 1440px;
+  display: flex;
+  gap: 283px;
+  align-items: center;
+  color: #454f5b;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.left_part {
+  display: flex;
+  gap: 101px;
+  align-items: center;
+}
+ul {
+  display: flex;
+  gap: 32px;
+}
+li {
+  list-style: none;
+}
+a {
+  display: flex;
+  align-items: center;
+  color: #454f5b;
+  text-decoration: none;
+  gap: 10px;
+}
+.right_part {
+  display: flex;
+  gap: 30px;
+}
+.icons {
+  display: flex;
+  gap: 30px;
+}
+nav {
+    display: flex;
+}
+nav a {
+  color: #141414;
+}
+nav a:last-child {
+    margin-left: 10px;
+  color: #9d9d9d;
+}
+.title{
+margin-top: 40px;
+}
+h1{
+font-style: 28px;
+/* width: 456px; */
+height: 42px;
+gap: 0px;
+opacity: 0px;
+
+}
+.title h1 span{
+    font-size: 18px;
+    font-weight: 300;
+    margin-left: 5px;
+}
+.head_part{
+
+display: flex;
+justify-content: space-between;
+}
+.head_part button{
+  width: 288px;
+  height: 40px;
+  top: 286px;
+  left: 100px;
+  /* padding: 7px 72px 7px 72px; */
+  gap: 10px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  border:1px solid #ADD7FF;
+  margin-right: 31px;
+}
+select{
+  outline: none;
+  width: 194px;
+  height: 40px;
+  top: 286px;
+  left: 1151px;
+  padding: 7px 16px 7px 16px;
+  gap: 16px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  font-size: 16px;
+}
+.hero__section{
+margin-top: 32px;
+display: flex;
+justify-content: space-between;
+width: 1245px;
+
+}
+.filter{
+  padding: 24px;
+width: 288px;
+height: 460px;
+border:1px solid #C4CDD5;
+}
+.hero__part{
+width: 926px;
+/* height: 1932px; */
+/* border:1px solid #232323; */
+display: flex;
+flex-wrap: wrap;
+gap: 30px;
+}
+.card{
+width: 288px;
+height: 453px;
+/* border:1px solid #232323; */
+margin-bottom: 30px;
+/* margin-top: 10px; */
+/* padding: 12px; */
+background-color: #F7F7F7;
+position: relative;
+cursor: pointer;
+}
+.card__head{
+  top: 12px;
+  left: 12px;
+  /* background-color: #fff; */
+display: flex;
+justify-content: space-between;
+gap: 100px;
+align-items: center;
+  position: absolute;
+}
+.isExist{
+width: 99px;
+height: 24px;
+margin-left: 12px;
+}
+.sale{
+  width: 51px;
+  height: 30px;
+  padding: 8px 10px 8px 10px;
+  opacity: 0px;
+  font-size: 12px;
+  background-color: #fff;
+  box-shadow: 0px 2px 5px 0px #00000008;
+}
+.part__img img{
+height: 300px;
+width: 100%;
+margin: auto;
+}
+.part__info-card{
+  padding-top: 5px;
+  background-color: #fff;
+ margin-top: 20px;
+width: 288px;
+height: 133px;
+border:1px solid #EAEAEA;
+border-top: transparent;
+}
+.stars{
+padding-left: 12px;
+display: flex;
+gap: 5px;
+}
+.stars i {
+font-style: 13.3px;
+}
+.part__info-card p {
+width: 264px;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+margin-left: 12px;
+margin-top: 6px;
+color:#454F5B;
+}
+.price{
+width: 157px;
+height: 24px;
+/* border:1px solid #323232; */
+padding-left: 12px;
+display: flex;
+align-items: center;
+gap: 12px;
+}
+.new_price{
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23.87px;
+  color:#161C24;
+}
+.old_price{
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 21.48px;
+  text-decoration: line-through;
+  color:#454F5B;
+}
+.box{
+width: 90px;
+height: 30px;
+background-color: #fff;
+font-size: 12px;
+font-weight: 400;
+line-height: 14.32px;
+position: absolute;
+top: 46px;
+left: 12px;
+display: flex;
+align-items: center;
+gap: 5px;
+}
+.pages{
+width: 546px;
+height: 40px;
+/* border:1px solid #333333; */
+margin: 0 auto;
+margin-top: -30px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.pages button{
+  border-radius: 3px;
+width: 40px;
+height: 40px;
+border:2px solid transparent;
+background-color: #fff;
+}
+.pages button:nth-child(2){
+background-color:#4295E4;
+color:#fff;
+}
+.pages *:hover{
+border:2px solid #4295E4;
+}
+/*  */
+.filter .d {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.filter h3 {
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 32px;
+  text-align: left;
+  color: #161c24;
+}
+
+.filter .d h4 {
+  width: Hug (240px) px;
+  height: Fill (72px) px;
+  display: flex;
+  gap: 180px;
+  align-items: center;
+  padding: 23px 0px;
+  margin-bottom: 16px;
+}
+
+.d span {
+  display: flex;
+  width: 240px;
+  height: 44px;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+.d span h5 {
+  padding-top: 10px;
+  text-align: center;
+  width: 116px;
+  height: 44px;
+  border: 1px solid #eaeaea;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #161c24;
+}
+
+.d button {
+  width: 240px;
+  height: 30px;
+  margin-bottom: 12px;
+  font-weight: 400;
+  color: #161c24;
+  font-family: Inter;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  transition: all 0.5s;
+}
+
+.d button:active {
+  background-color: aqua;
+}
+.recently_viewed{
+  margin-top: 100px;
+width: 1242px;
+height: 552px;
+/* border:1px solid #232323; */
+}
+.title_viewed{
+width: 1234px;
+height: 62px;
+/* border:0.2px solid #232323; */
+margin-bottom: 64px;
+display: flex;
+justify-content: space-between;
+}
+.title_viewed h2{
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 62px;
+  text-align: left;
+}
+.angles{
+width: 120px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.angles i{
+font-size: 32px;
+}
+.viewed_cards{
+width: 1242px;
+height: 426px;
+/* border:1px solid #232323; */
+display: flex;
+justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+  margin-top: 100px;
+  background-color: #0D1B2A;
+  color: white;
+  padding: 20px 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+
+
+/*  */
+
+Навигация
+Наши контакты
+Наш адрес
+информация
+Главная
+Телефоны
+Россия, Ростов-на-Дону ул. Богачева, 16
+Доставка и оплата
+Каталог
++7 (988) 565 00 38
+Гарантии
+Оптовая продажа
++375 33 662 82 56
+Возврат товара
+О нас
+Email
+vladpertcev@mail.ru
+korobko416@gmail.com
+© 2021 Golden Soft All rights reserved.
