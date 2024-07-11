@@ -26,7 +26,7 @@ import { detailsCard,getData } from "../js/functions.js";
     let id = url.split("id=")[1];
     console.log(id);
     if (!id) {
-      window.location.assign(`http://127.0.0.1:5500/index.html`);
+      window.location.assign(`https://exam-psi-azure.vercel.app/index.html`);
       return;
     }
   
@@ -46,7 +46,7 @@ import { detailsCard,getData } from "../js/functions.js";
             image: data.image,
             time: Date.now(),
           });
-          window.location.assign(`http://127.0.0.1:5500/pages/cart.html`);
+          window.location.assign(`https://exam-psi-azure.vercel.app/pages/cart.html`);
         });
           loader.style.display = "none";
         } else {
