@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", async function () {
         el.addEventListener('click',function(event){
           const cardId = this.getAttribute("data-id");
   if (cardId) {
-    window.location.href`http://127.0.0.1:5500/pages/details.html?id=${cardId}`;
+    window.location.assign(`https://exam-psi-azure.vercel.app/`);
   }
           // saveLC(this)
         // window.location.assign("http://127.0.0.1:5500/pages/details.html")
@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", async function () {
         el.addEventListener('click',function(event){
           const cardId = this.getAttribute("data-id");
   if (cardId) {
-    window.location.href`http://127.0.0.1:5500/pages/details.html?id=${cardId}`;
+    window.location.assign(`https://exam-psi-azure.vercel.app/`);
   }
           // saveLC(this)
         // window.location.assign("http://127.0.0.1:5500/pages/details.html")
