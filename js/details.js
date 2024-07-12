@@ -46,7 +46,7 @@ import { detailsCard,getData } from "../js/functions.js";
             image: data.image,
             time: Date.now(),
           });
-          window.location.assign(`https://exam-psi-azure.vercel.app/pages/cart.html`);
+          // window.location.assign(`https://exam-psi-azure.vercel.app/pages/cart.html`);
         });
           loader.style.display = "none";
         } else {
