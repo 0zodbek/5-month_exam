@@ -428,17 +428,54 @@ margin-bottom: 18px;
 
 }
 
+.callback-section {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #F3F7FA;
+}
 
+.callback-title {
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 20px;
+}
 
+.callback-description {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 30px;
+}
 
+.callback-form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
 
+.input-field {
+  padding: 10px 15px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #E9EFF4;
+  outline: none;
+  width: 200px;
+}
 
+.submit-button {
+  padding: 10px 20px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #3478f6;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
 
-
-
-
-
-
+.submit-button:hover {
+  background-color: #2d66d5;
+}
 
 .footer {
   background-color: rgba(13, 36, 54, 1);
