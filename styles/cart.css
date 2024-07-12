@@ -80,6 +80,144 @@ margin-top: 35px;
 margin-bottom: 35px;
 font-size: 24px;
 }
-.cart_hero{
+.product-section {
+  /* max-width: 800px; */
+  margin: auto;
+  padding: 20px;
+  position: relative;
+  /* border: 1px solid #e5e5e5; */
+  border-radius: 10px;
+  /* background-color: #f9f9f9; */
+}
 
+.product-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.product-image {
+  width: 100px;
+  height: auto;
+}
+
+.product-details {
+  flex: 1;
+  margin-left: 15px;
+}
+
+.product-title {
+  font-size: 18px;
+  margin: 0;
+}
+
+.product-gift {
+  font-size: 14px;
+  color: #666;
+  margin: 5px 0 10px;
+}
+
+.product-link {
+  color: #3478f6;
+  text-decoration: none;
+}
+
+.product-link:hover {
+  text-decoration: underline;
+}
+
+.product-quantity {
+  display: flex;
+  align-items: center;
+}
+
+.quantity-button {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  text-align: center;
+  line-height: 28px;
+}
+
+.quantity-input {
+  width: 50px;
+  height: 30px;
+  border: 1px solid #ccc;
+  text-align: center;
+  margin: 0 5px;
+}
+
+.product-price {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.product-remove {
+  margin-left: 15px;
+}
+
+.remove-link {
+  color: #3478f6;
+  text-decoration: none;
+}
+
+.remove-link:hover {
+  text-decoration: underline;
+}
+
+.order-summary {
+  padding: 20px;
+  text-align: right;
+}
+
+.total-price {
+  position: absolute;
+  top: 176px;
+  left: 40px;
+  font-size: 20px;
+  margin: 0 0 20px;
+}
+
+.total-amount {
+  font-weight: bold;
+}
+
+.order-button, .continue-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.order-button {
+  text-align-last: left;
+  background-color: #3478f6;
+  color: #fff;
+  margin-right: 400px;
+  position: absolute;
+  top: 214px;
+  left: 30px;
+}
+
+.order-button:hover {
+  background-color: #2d66d5;
+}
+
+.continue-button {
+  background-color: #e5e5e5;
+  color: #333;
+  position: absolute;
+  top: 213px;
+  right: 40px;
+}
+
+.continue-button:hover {
+  background-color: #ccc;
 }
